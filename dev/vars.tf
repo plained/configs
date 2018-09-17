@@ -19,12 +19,12 @@ variable "group" {
 
 variable "loggingBucket" {
   description = "The bucket to which S3 access logs is pushed"
-  default = "audit-devops-aetn"
+  default = "audit-bucket"
 }
 
 variable "domain" {
   description = "The domain to which the buckets belong to"
-  default = "aetnd-com"
+  default = "myorg-com"
 }
 
 variable "bucketGroup" {
