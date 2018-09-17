@@ -1,6 +1,7 @@
 # Compiled files
 *.tfstate
 *.tfstate.backup
+dev/.terraform_old/plugins/darwin_amd64/terraform-provider-aws_v1.35.0_x4
 
 # Module directory
 .terraform/
